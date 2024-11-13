@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Final Computing Project" company="" webLink="http://" view-date="2024-07-01" view-index="0" gantt-divider-location="538" resource-divider-location="300" version="3.3.3312" locale="en_GB">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Name" width="311" order="0"/>
+        <field id="tpd4" name="Begin date" width="111" order="1"/>
+        <field id="tpd5" name="End date" width="115" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <timeline><![CDATA[0,1,3,2]]></timeline>
+        <option id="color.recent"><![CDATA[#ccffff #ccccff #ffffcc #999900 #ff9999 #cc0066 #9900cc #9900ff #cc99ff #ffff66]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="5491f0f1ad244ee88555fea3d7cda264" name="Phase 1 (DISCOVER)" color="#9900cc" shape="0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0" meeting="false" start="2024-08-01" duration="77" complete="0" expand="true">
+            <task id="6" uid="1327c43d749344e88ae3431217208dc1" name="Background Research" color="#cc99ff" meeting="false" start="2024-08-01" duration="77" complete="0" expand="true"/>
+            <task id="4" uid="0cd29c29404a4fdd89db9dace2a5f63d" name="Pitch Slides" color="#cc99ff" meeting="false" start="2024-11-11" duration="5" complete="0" expand="true"/>
+            <task id="5" uid="109f3017328e4dd3ac2889d49ad56641" name="Literature Review" color="#cc99ff" meeting="false" start="2024-11-05" duration="9" complete="0" expand="true"/>
+        </task>
+        <task id="1" uid="b0dbd7066b584142966b2ae4f4952c17" name="Phase 2 (DEFINE)" color="#cc0066" shape="0,0,1,1,0,1,1,0,1,1,0,0,1,0,0,1" meeting="false" start="2024-11-15" duration="21" complete="0" expand="true">
+            <task id="20" uid="a13bb445c799401dbf316be169cac468" name="Refine development roadmap" color="#ff9999" meeting="false" start="2024-11-15" duration="21" complete="0" expand="true"/>
+            <task id="8" uid="17918827ab0e4a688cb41fc9176336e4" name="Basic Agent + Level" color="#ff9999" meeting="false" start="2024-11-27" duration="13" complete="0" expand="true"/>
+            <task id="7" uid="13ad0cd1562b4c29a9329beec4c8599f" name="Test Environments" color="#ff9999" meeting="false" start="2024-11-15" duration="11" complete="0" expand="true"/>
+        </task>
+        <task id="3" uid="c2a17465aa134a08acaca2ca8f52692f" name="Phase 3 (DEVELOP)" color="#999900" shape="0,0,1,1,0,1,1,0,1,1,0,0,1,0,0,1" meeting="false" start="2024-12-13" duration="97" complete="0" expand="true">
+            <task id="9" uid="3f35c97a9ed442319c33453dcb629e4b" name="Implement 2 Algorithms on Basic" color="#ffffcc" meeting="false" start="2024-12-13" duration="26" complete="0" priority="2" expand="true"/>
+            <task id="10" uid="61066db630d84ae59fbd50973a7074de" name="Level Generation" color="#ffffcc" meeting="false" start="2025-01-13" duration="30" complete="0" expand="true"/>
+            <task id="11" uid="972b6607f65644adac64ab6619c4290f" name="Environment Variation Training" color="#ffffcc" meeting="false" start="2025-02-04" duration="39" complete="0" expand="true"/>
+            <task id="12" uid="58865ca92b9e4bc28a1de2e0262927b7" name="Evaluate 2 Algos with Variation Loop" color="#ffffcc" meeting="false" start="2025-03-03" duration="30" complete="0" expand="true"/>
+            <task id="13" uid="80c0e3f2d9c049abaf4cccb823f3ec82" name="Added Techniques?" color="#ffffcc" meeting="false" start="2025-03-17" duration="31" complete="0" expand="true"/>
+            <task id="14" uid="9838528ee3cd4c0099ccc7e116572a47" name="Refine / Debug" color="#ffffcc" meeting="false" start="2024-12-13" duration="97" complete="0" expand="true"/>
+        </task>
+        <task id="2" uid="e31c0764b41a4d6ba3c2d3a6b4ad2ce9" name="Phase 4 (DELIVER)" color="#00cccc" shape="0,0,1,1,0,1,1,0,1,1,0,0,1,0,0,1" meeting="false" start="2025-04-28" duration="29" complete="0" expand="true">
+            <task id="15" uid="92d8cce5fe9842cc86ae3745b807ef05" name="Poster" color="#ccffff" meeting="false" start="2025-04-28" duration="9" complete="0" expand="true"/>
+            <task id="17" uid="0c370d2b0eeb43bd91b8dc077ba60ed5" name="Report" color="#ccffff" meeting="false" start="2025-05-05" duration="14" complete="0" expand="true"/>
+            <task id="18" uid="6c4ebd2e61a847409354f67ca81e57c4" name="Viva" color="#ccffff" meeting="false" start="2025-05-23" duration="10" complete="0" expand="true"/>
+            <task id="19" uid="862e83ced68048148770163882c24688" name="Portfolio" color="#ccffff" meeting="false" start="2025-05-05" duration="14" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
