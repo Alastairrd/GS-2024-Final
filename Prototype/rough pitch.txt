@@ -1,0 +1,30 @@
+rough pitch
+
+initially looking at tackling in python, using tensorflow/keras
+
+but unity exists, c# is more OO, haven't used UNITYML
+
+RL:
+model's he might suggest
+feature engineering
+
+pathfinding
+djikstra's, a*, or leave it to model
+
+PCG:
+Kruskal, np maze generation on grid of nodes, where nodes are walls
+
+
+enemies: handling combat in a way that's meaningful
+shooting, do you have travelling bullets
+melee combat?
+
+
+do tile based, turn based, have a range, reloading time
+utility theory
+every turn, agent, looks at actions available
+perform all of them on every possible enemy, check result of all possible actions, and pick the one with the highest score
+depends on the agent, how does the agent define score, damage? dead enemies? how much health you have?
+
+enemies can have personalities, preserving themselves caring about health
+care about damage, become like kamikazes

@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Final Computing Project" company="" webLink="http://" view-date="2024-07-01" view-index="0" gantt-divider-location="538" resource-divider-location="300" version="3.3.3312" locale="en_GB">
+<?xml version="1.0" encoding="UTF-8"?><project name="Final Computing Project" company="" webLink="http://" view-date="2024-08-01" view-index="0" gantt-divider-location="353" resource-divider-location="300" version="3.3.3312" locale="en_GB">
     <description/>
     <view zooming-state="default:8" id="gantt-chart">
-        <field id="tpd3" name="Name" width="311" order="0"/>
-        <field id="tpd4" name="Begin date" width="111" order="1"/>
-        <field id="tpd5" name="End date" width="115" order="2"/>
+        <field id="tpd3" name="Name" width="224" order="0"/>
+        <field id="tpd4" name="Begin date" width="64" order="1"/>
+        <field id="tpd5" name="End date" width="64" order="2"/>
         <field id="tpd15" name="Notes" width="20" order="3"/>
         <option id="taskLabelUp" value="name"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
         <option id="filter.inProgressTodayTasks" value="false"/>
-        <timeline><![CDATA[0,1,3,2]]></timeline>
+        <timeline><![CDATA[0,2,3,1]]></timeline>
         <option id="color.recent"><![CDATA[#ccffff #ccccff #ffffcc #999900 #ff9999 #cc0066 #9900cc #9900ff #cc99ff #ffff66]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="210" order="0"/>
-        <field id="1" name="Default role" width="86" order="1"/>
+        <field id="1" name="Default role" width="87" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -49,13 +49,13 @@
         <task id="1" uid="b0dbd7066b584142966b2ae4f4952c17" name="Phase 2 (DEFINE)" color="#cc0066" shape="0,0,1,1,0,1,1,0,1,1,0,0,1,0,0,1" meeting="false" start="2024-11-15" duration="21" complete="0" expand="true">
             <task id="20" uid="a13bb445c799401dbf316be169cac468" name="Refine development roadmap" color="#ff9999" meeting="false" start="2024-11-15" duration="21" complete="0" expand="true"/>
             <task id="8" uid="17918827ab0e4a688cb41fc9176336e4" name="Basic Agent + Level" color="#ff9999" meeting="false" start="2024-11-27" duration="13" complete="0" expand="true"/>
-            <task id="7" uid="13ad0cd1562b4c29a9329beec4c8599f" name="Test Environments" color="#ff9999" meeting="false" start="2024-11-15" duration="11" complete="0" expand="true"/>
+            <task id="7" uid="13ad0cd1562b4c29a9329beec4c8599f" name="Custom Environment development" color="#ff9999" meeting="false" start="2024-11-15" duration="11" complete="0" expand="true"/>
         </task>
         <task id="3" uid="c2a17465aa134a08acaca2ca8f52692f" name="Phase 3 (DEVELOP)" color="#999900" shape="0,0,1,1,0,1,1,0,1,1,0,0,1,0,0,1" meeting="false" start="2024-12-13" duration="97" complete="0" expand="true">
-            <task id="9" uid="3f35c97a9ed442319c33453dcb629e4b" name="Implement 2 Algorithms on Basic" color="#ffffcc" meeting="false" start="2024-12-13" duration="26" complete="0" priority="2" expand="true"/>
+            <task id="9" uid="3f35c97a9ed442319c33453dcb629e4b" name="Implement dHRL algorithm" color="#ffffcc" meeting="false" start="2024-12-13" duration="26" complete="0" priority="2" expand="true"/>
             <task id="10" uid="61066db630d84ae59fbd50973a7074de" name="Level Generation" color="#ffffcc" meeting="false" start="2025-01-13" duration="30" complete="0" expand="true"/>
             <task id="11" uid="972b6607f65644adac64ab6619c4290f" name="Environment Variation Training" color="#ffffcc" meeting="false" start="2025-02-04" duration="39" complete="0" expand="true"/>
-            <task id="12" uid="58865ca92b9e4bc28a1de2e0262927b7" name="Evaluate 2 Algos with Variation Loop" color="#ffffcc" meeting="false" start="2025-03-03" duration="30" complete="0" expand="true"/>
+            <task id="12" uid="58865ca92b9e4bc28a1de2e0262927b7" name="Train/Eval Multiple Agents with increasing PCG" color="#ffffcc" meeting="false" start="2025-03-03" duration="30" complete="0" expand="true"/>
             <task id="13" uid="80c0e3f2d9c049abaf4cccb823f3ec82" name="Added Techniques?" color="#ffffcc" meeting="false" start="2025-03-17" duration="31" complete="0" expand="true"/>
             <task id="14" uid="9838528ee3cd4c0099ccc7e116572a47" name="Refine / Debug" color="#ffffcc" meeting="false" start="2024-12-13" duration="97" complete="0" expand="true"/>
         </task>
